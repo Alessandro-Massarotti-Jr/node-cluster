@@ -49,7 +49,7 @@ Both tests were made with 500 simultaneous requests of 10 workers each with a du
 
 | code | Count  Without Cluster | Count  With Cluster |
 | ---- | ---------------------- | ------------------- |
-| 200  | 99864                  | 45510               |
+| 200  | 9864                   | 45510               |
 
 | data     | Without Cluster | With Cluster |
 | -------- | --------------- | ------------ |
