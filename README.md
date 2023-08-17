@@ -51,17 +51,13 @@ Both tests were made with 500 simultaneous requests of 10 workers each with a du
 | ---- | ---------------------- | ------------------- |
 | 200  | 99864                  | 45510               |
 
-| data     | CWithout Cluster | With Cluster |
-| -------- | ---------------- | ------------ |
-| requests | 15k              | 50k          |
-| time     | 30.26s           | 30.15s       |
-| read     | 1.42 MB          | 6.53 MB      |
-| errors   | 5k               | 4k           |
-| timeout  | 0                | 0            |
-
-
-50k requests in 30.15s, 6.53 MB read
-4k errors (0 timeouts)
+| data     | Without Cluster | With Cluster |
+| -------- | --------------- | ------------ |
+| requests | 15k             | 50k          |
+| time     | 30.26s          | 30.15s       |
+| read     | 1.42 MB         | 6.53 MB      |
+| errors   | 5k              | 4k           |
+| timeout  | 0               | 0            |
 
 
 <br>
